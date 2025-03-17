@@ -1,0 +1,36 @@
+# Site settings
+title: Your Name
+email: your-email@example.com
+description: >-
+  Personal website and blog of Your Name - Web Developer, Designer, and Creative Thinker.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://username.github.io" # Replace username with your GitHub username
+twitter_username: yourhandle
+github_username:  yourusername
+linkedin_username: yourprofile
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Pagination for blog
+paginate: 5
+paginate_path: "/blog/page:num/"
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /blog/:year/:month/:day/:title/
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
