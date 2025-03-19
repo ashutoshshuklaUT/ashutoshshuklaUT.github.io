@@ -175,6 +175,7 @@ a:hover {
   max-width: 90%;
   margin: 0 auto;
   padding: 0;
+  overflow: visible; /* Ensure content is fully visible */
 }
 
 .about-content h3:first-child {
@@ -190,6 +191,30 @@ a:hover {
   margin-bottom: 1.5rem;
   margin-left: 1.5rem;
   color: var(--text-color);
+}
+
+/* Profile image with text wrapping - fixed */
+.profile-container {
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+  width: 100%;
+}
+
+.profile-container p {
+  margin-top: 0;
+  overflow: visible;
+}
+
+.profile-container p:first-of-type {
+  margin-top: 0;
+}
+
+.profile-image {
+  float: left;
+  width: 150px; /* Reduced from 180px */
+  height: auto;
+  border-radius: 5px;
+  margin: 0 1.5rem 1.5rem 0;
 }
 
 /* Blog button container */
@@ -328,6 +353,8 @@ a:hover {
   padding: 4rem 0 2rem;
   background-color: var(--light-background);
   transition: background-color 0.3s ease;
+  max-width: 75%; /* Added to match post content width */
+  margin: 0 auto; /* Added to center the header */
 }
 
 .post-header .post-title, 
@@ -345,7 +372,7 @@ a:hover {
 .page-content {
   padding: 2rem 0 4rem;
   transition: background-color 0.3s ease;
-  max-width: 70%;
+  max-width: 75%; /* Changed from 90% to 75% for narrower content */
   margin: 0 auto;
 }
 
@@ -396,7 +423,7 @@ a:hover {
   padding: 2rem 0;
   border-top: 1px solid var(--border-color);
   transition: border-color 0.3s ease;
-  max-width: 90%;
+  max-width: 75%; /* Changed from 90% to 75% */
   margin: 0 auto;
 }
 
@@ -464,18 +491,15 @@ a:hover {
   color: var(--text-color);
 }
 
-/* Profile image with text wrapping */
-.profile-container {
-  overflow: hidden;
-  margin-bottom: 1.5rem;
-}
-
-.profile-image {
-  float: left;
-  width: 180px;
-  height: auto;
-  border-radius: 5px;
-  margin: 0 1.5rem 1rem 0;
+/* Further reduce width on wider screens for better readability */
+@media (min-width: 1200px) {
+  .post-content, 
+  .page-content,
+  .post-header,
+  .page-header,
+  .post-navigation {
+    max-width: 65%; /* Even narrower on very wide screens */
+  }
 }
 
 /* Responsive styles */
@@ -483,19 +507,35 @@ a:hover {
   .site-header .container {
     flex-direction: column;
     text-align: center;
+    padding: 0.5rem 0;
   }
   
   .site-branding {
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 1.25rem;
+    flex-wrap: wrap; /* Allow wrapping */
+  }
+  
+  .site-title {
+    font-size: 1.5rem; /* Smaller on mobile */
+    margin-right: 0.5rem;
+  }
+  
+  .theme-toggle {
+    margin-left: 0.5rem;
   }
   
   .site-nav {
-    margin-top: 1rem;
+    margin-top: 0.75rem;
+    width: 100%; /* Full width */
+    display: flex;
+    justify-content: center;
   }
   
   .site-nav a {
     margin: 0 1rem;
+    font-size: 1rem; /* Smaller on mobile */
+    padding: 0.25rem 0.5rem;
   }
   
   .footer-col-wrapper {
@@ -537,7 +577,12 @@ a:hover {
   .profile-image {
     float: none;
     display: block;
-    margin: 0 auto 1.5rem;
-    width: 200px;
+    margin: 0 auto 2rem;
+    width: 150px; /* Consistent with desktop */
+  }
+  
+  .profile-container p {
+    clear: both;
+    margin-top: 1.5rem;
   }
 }
