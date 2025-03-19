@@ -5,10 +5,19 @@ layout: default
 <section class="about-me">
   <div class="container">
     <div class="about-content">
-      <p>I'm a passionate web developer and designer with a focus on creating intuitive and engaging digital experiences. I love working with modern technologies and constantly learning new skills.</p>
+    <div class="profile-container">
+        <img src="/images/profile.jpg" alt="Ashutosh profile picture" class="profile-image">
+        <p>Hello, I am Ashutosh Shukla, a Senior Operations Research Scientist in the Network Strategy Design and Innovation group at BNSF Railway. Prior to joining BNSF Railway, I received my PhD in Operations Research and Industrial Engineering from The University of Texas at Austin. More details about my work at BNSF and my dissertation research are in the later paragraphs. The objective of creating this website is to document my learning about various topics and share it with others.</p>
+      </div>
       
-      <h3>My Experience</h3>
-      <p>I have X years of experience in web development, with expertise in:</p>
+
+      <p><strong>Work</strong></p>
+
+      
+      
+      
+      
+      <h3>News</h3>
       <ul>
         <li>Front-end development (HTML, CSS, JavaScript)</li>
         <li>Back-end development (specify your tech stack)</li>
@@ -22,8 +31,8 @@ layout: default
       
       <h3>Education</h3>
       <ul>
-        <li><strong>Degree Name</strong> - University Name, Year</li>
-        <li><strong>Certification</strong> - Organization, Year</li>
+        <li><strong>PhD</strong> - UT Austin, 2024</li>
+        <li><strong>B.Tech</strong> - IIT Roorkee, 2017</li>
       </ul>
       
       <h3>Get in Touch</h3>

@@ -1,13 +1,15 @@
 # Site settings
-title: Your Name
-email: your-email@example.com
+title: Ashutosh Shukla
+email: ashutosh.shukla@utexas.edu
+
+# This description goes at the bottom of the webpage
 description: >-
-  Personal website and blog of Your Name - Web Developer, Designer, and Creative Thinker.
+  Ashutosh Shukla, PhD
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://username.github.io" # Replace username with your GitHub username
-twitter_username: yourhandle
-github_username:  yourusername
-linkedin_username: yourprofile
+url: "https://ashutoshshuklaUT.github.io" # Replace username with your GitHub username
+twitter_username: A_RShukla
+github_username:  ashutoshshuklaUT
+linkedin_username: ashutosh-ut-phd
 
 # Build settings
 markdown: kramdown
