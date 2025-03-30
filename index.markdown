@@ -7,7 +7,13 @@ layout: default
     <div class="about-content">
     <div class="profile-container">
         <img src="/images/profile.jpg" alt="Ashutosh profile picture" class="profile-image">
-        <p>Hello, I am Ashutosh Shukla, a Senior Operations Research Scientist in the Network Strategy Design and Innovation group at BNSF Railway. Prior to joining BNSF Railway, I received my PhD in Operations Research and Industrial Engineering from The University of Texas at Austin. More details about my work at BNSF and my dissertation research are in the later paragraphs. The objective of creating this website is to document my learning about various topics and share it with others.</p>
+        <p>Hello! I am Ashutosh Shukla, a Senior Operations Research Scientist in the Network Strategy Design and Innovation group at BNSF Railway. Prior to joining BNSF Railway, I received my PhD in Operations Research and Industrial Engineering from The University of Texas at Austin.</p>
+
+        <p>I am interested in developing mathematical models (and algorithmic approaches to solve them) that can aid in decision-making related to design and operations of complex networked infrastructures (think transportation networks, power networks, communication networks).</p>
+
+        Apart from mathematical modeling, I like to play a varierty of sports, read, and watch movies, and TV series.
+
+        
       </div>
       
 
