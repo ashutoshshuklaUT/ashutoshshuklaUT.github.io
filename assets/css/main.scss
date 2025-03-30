@@ -34,12 +34,12 @@
   --footer-bg: #111827;
 }
 
-/* Make sure body has the light-background color as default */
+/* Base styles */
 body {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   line-height: 1.6;
   color: var(--text-color);
-  background-color: var(--light-background); /* Change from var(--background) to var(--light-background) */
+  background-color: var(--light-background); /* Changed from var(--background) to maintain consistent background */
   margin: 0;
   transition: background-color 0.3s ease, color 0.3s ease;
   font-weight: 400;
@@ -51,6 +51,14 @@ body {
   max-width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Ensure main content area has the correct background */
+.site-content {
+  background-color: var(--light-background);
+  min-height: 100vh;
 }
 
 /* Typography */
@@ -101,12 +109,6 @@ a:hover {
 .site-branding {
   display: flex;
   align-items: center;
-}
-
-/* Ensure main content area has the correct background */
-.site-content {
-  background-color: var(--light-background);
-  min-height: 100vh;
 }
 
 .theme-toggle {
@@ -161,6 +163,7 @@ a:hover {
   padding-bottom: 5px;
   border-bottom: 2px solid transparent;
   font-size: 1.125rem;
+  white-space: nowrap; /* Prevent button text from wrapping */
 }
 
 .site-nav a:hover, 
@@ -353,14 +356,18 @@ a:hover {
   color: var(--light-text);
 }
 
-/* Updated Post Header Styles - Remove Background Box */
+/* Post pages - UPDATED to remove box and ensure responsiveness */
 .post-header, 
 .page-header {
-  padding: 4rem 0 2rem;
+  padding: 4rem 20px 2rem;
   background-color: transparent; /* Changed from var(--light-background) to transparent */
   transition: background-color 0.3s ease;
   max-width: 75%;
   margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  border-bottom: 1px solid var(--border-color); /* Optional subtle separator */
+  margin-bottom: 2rem;
 }
 
 .post-header .post-title, 
@@ -376,10 +383,13 @@ a:hover {
 
 .post-content, 
 .page-content {
-  padding: 2rem 0 4rem;
+  padding: 2rem 20px 4rem;
   transition: background-color 0.3s ease;
-  max-width: 75%; /* Changed from 90% to 75% for narrower content */
+  max-width: 75%;
   margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: transparent; /* Ensure it doesn't override the parent background */
 }
 
 .post-content a, 
@@ -426,11 +436,13 @@ a:hover {
 }
 
 .post-navigation {
-  padding: 2rem 0;
+  padding: 2rem 20px;
   border-top: 1px solid var(--border-color);
   transition: border-color 0.3s ease;
-  max-width: 75%; /* Changed from 90% to 75% */
+  max-width: 75%;
   margin: 0 auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 .post-navigation .post-nav-links {
@@ -508,7 +520,7 @@ a:hover {
   }
 }
 
-/* Responsive styles */
+/* Enhanced responsive styles */
 @media (max-width: 768px) {
   .site-header .container {
     flex-direction: column;
@@ -536,10 +548,11 @@ a:hover {
     width: 100%; /* Full width */
     display: flex;
     justify-content: center;
+    flex-wrap: wrap; /* Allow buttons to wrap to next line if needed */
   }
   
   .site-nav a {
-    margin: 0 1rem;
+    margin: 0.5rem 1rem; /* Add vertical margin for spacing when wrapped */
     font-size: 1rem; /* Smaller on mobile */
     padding: 0.25rem 0.5rem;
   }
@@ -577,9 +590,19 @@ a:hover {
   h3 {
     font-size: 1.5rem;
   }
+  
+  /* Make sure post headers and content are fully visible */
+  .post-header, 
+  .page-header,
+  .post-content, 
+  .page-content,
+  .post-navigation {
+    max-width: 90%; /* Wider on small screens */
+  }
 }
 
-@media (max-width: 600px) {
+/* Additional mobile tweaks */
+@media (max-width: 480px) {
   .profile-image {
     float: none;
     display: block;
@@ -590,5 +613,17 @@ a:hover {
   .profile-container p {
     clear: both;
     margin-top: 1.5rem;
+  }
+  
+  .post-header, 
+  .page-header,
+  .post-content, 
+  .page-content,
+  .post-navigation {
+    max-width: 100%; /* Full width on very small screens */
+  }
+  
+  .site-header .container {
+    padding: 0.5rem 10px; /* Smaller padding on mobile */
   }
 }
