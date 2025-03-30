@@ -133,8 +133,9 @@ a:hover {
 
 /* Header and Navigation */
 .site-header {
-  background-color: var(--header-bg);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: var(--light-background);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+  border-color: var(--light-background);
   padding: 1rem 0;
   transition: background-color 0.3s ease;
 }
@@ -523,6 +524,7 @@ a:hover {
 /* Enhanced responsive styles */
 @media (max-width: 768px) {
   .site-header .container {
+    background-color: var(--light-background);
     flex-direction: column;
     text-align: center;
     padding: 0.5rem 0;
@@ -545,6 +547,10 @@ a:hover {
   
   .site-nav {
     margin-top: 0.75rem;
+    background-color: var(--light-background);
+    border-top: none; 
+    border-right: none;
+    border-bottom: none;
     width: 100%; /* Full width */
     display: flex;
     justify-content: center;
