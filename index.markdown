@@ -7,42 +7,19 @@ layout: default
     <div class="about-content">
     <div class="profile-container">
         <img src="/images/profile.jpg" alt="Ashutosh profile picture" class="profile-image">
-        <p>Hello! I am Ashutosh Shukla, a Senior Operations Research Scientist in the Network Strategy Design and Innovation group at BNSF Railway. Prior to joining BNSF Railway, I received my PhD in Operations Research and Industrial Engineering from The University of Texas at Austin.</p>
+        <p>Hello! I am Ashutosh Shukla, a Senior Operations Research Scientist in the Network Strategy Design and Innovation group at BNSF Railway. Prior to joining BNSF Railway, I received my PhD in Operations Research and Industrial Engineering from UT Austin.</p>
 
         <p>I am interested in developing mathematical models (and algorithmic approaches to solve them) that can aid in decision-making related to design and operations of complex networked infrastructures (think transportation networks, power networks, communication networks).</p>
-
-        Apart from mathematical modeling, I like to play a varierty of sports, read, and watch movies, and TV series.
-
-        
       </div>
-      
-
-      <p><strong>Work</strong></p>
-
-      
-      
-      
-      
+            
       <h3>News</h3>
       <ul>
-        <li>Front-end development (HTML, CSS, JavaScript)</li>
-        <li>Back-end development (specify your tech stack)</li>
-        <li>UI/UX design</li>
-        <li>Responsive web design</li>
-        <li>(Add more skills relevant to you)</li>
-      </ul>
-      
-      <h3>My Journey</h3>
-      <p>(Share a brief story about how you got into web development, what drives you, and what you're passionate about.)</p>
-      
-      <h3>Education</h3>
-      <ul>
-        <li><strong>PhD</strong> - UT Austin, 2024</li>
-        <li><strong>B.Tech</strong> - IIT Roorkee, 2017</li>
+      <li><strong>[Nov, 2025]</strong>: Published the last chapter of my dissertation on NORTA modeling at the Winter Simulation Conference in Orlando</li>
+      <li><strong>[June, 2024]</strong>: I joined BNSF Railway</li>
       </ul>
       
       <h3>Get in Touch</h3>
-      <p>Feel free to reach out to me via <a href="mailto:your-email@example.com">email</a> or connect with me on <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> and <a href="https://github.com/yourusername">GitHub</a>.</p>
+      <p>Feel free to reach out to me via <a href="mailto:ashutosh.shukla@utexas.edu">email</a> or connect with me on <a href="https://www.linkedin.com/in/ashutosh-ut-phd/">LinkedIn</a> and <a href="https://github.com/ashutoshshuklaUT">GitHub</a>.</p>
     </div>
   </div>
   
