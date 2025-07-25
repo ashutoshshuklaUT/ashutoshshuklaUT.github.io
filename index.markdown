@@ -14,7 +14,7 @@ layout: default
             
       <h3>News</h3>
       <ul>
-      <li><strong>[Nov, 2025]</strong>: Published the last chapter of my dissertation on NORTA modeling at the Winter Simulation Conference in Orlando</li>
+      <li><strong>[Nov, 2024]</strong>: Published the last chapter of my dissertation on NORTA modeling at the Winter Simulation Conference in Orlando</li>
       <li><strong>[June, 2024]</strong>: I joined BNSF Railway</li>
       </ul>
       
