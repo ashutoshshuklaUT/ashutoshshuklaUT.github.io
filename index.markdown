@@ -20,15 +20,12 @@ layout: default
 
 
 <p><strong style="font-size: 1.5em;">What I do:</strong></p>
-<p>I design and implement algorithms that optimize operations in large-scale networks. My work combines machine learning, reinforcement learning, simulation, and mixed-integer programming to tackle challenges in scheduling, routing, and resource allocation.
-Currently, I serve as a technical lead at BNSF Railway, where I develop optimization systems for train assignments, scheduling, and automation of yard operations.</p>
+<p>I design and implement algorithms that optimize operations in large-scale networks. My work combines machine learning, reinforcement learning, simulation, and mixed-integer programming to tackle challenges in scheduling, routing, and resource allocation. Currently, I serve as a technical lead BNSF Railway, where I develop algorithms for train-to-track assignments over BNSF's entire network. In addition, I am also developing an AI system to fully automate railcar movement decisions across BNSF's yard network. This process in currently managed by 100+ operation managers.</p>
 
 <!-- ##################################################################
 ################################################################## -->
 
 <p><strong style="font-size: 1.5em;">Technical focus:</strong></p>
-<p>I design and implement algorithms that optimize operations in large-scale networks. My work combines machine learning, reinforcement learning, simulation, and mixed-integer programming to tackle challenges in scheduling, routing, and resource allocation.
-Currently, I serve as a technical lead at BNSF Railway, where I develop algorithms for train-to-track assignments over BNSF's entire network. In addition, I am also developing an AI system to fully automate railcar movement decisions across BNSF's yard network. This process in currently managed by 100+ operation managers.</p>
 
 <p><strong>Optimization:</strong> Scheduling algorithms, assignment problems, routing, network modeling, and large-scale mixed-integer programming</p>
 <p><strong>Machine Learning & AI:</strong> Deep learning, reinforcement learning, time series forecasting, and anomaly detection</p>
