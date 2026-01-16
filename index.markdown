@@ -12,7 +12,7 @@ layout: default
 ################################################################## -->
 
 <p><strong style="font-size: 1.5em;">Hello! I am Ashutosh Shukla</strong>, </p>
-<p>an Applied AI Scientist specializing in simulation, reinforcement learning, and mathematical optimization for complex networks. With 7 years of experience, I build decision-making models that solve real-world problems in transportation, energy, and infrastructure.</p>
+<p>I am an Applied AI Scientist specializing in simulation, reinforcement learning, and mathematical optimization for complex networks. With 7 years of experience, I build decision-making models that solve real-world problems in transportation, energy, and infrastructure.</p>
 
 
 <!-- ##################################################################
