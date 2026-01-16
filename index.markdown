@@ -37,7 +37,9 @@ layout: default
 ################################################################## -->
 
 <p><strong style="font-size: 1.5em;">Research Background:</strong></p>
-<p>I completed my PhD in Operations Research and Industrial Engineering at UT Austin, where I developed ML-based stochastic optimization frameworks for critical infrastructure resilience. My research combines statistical modeling, neural networks, and optimization, published in peer-reviewed journals and conferences, including a best student paper award at the IISE Annual Conference.</p>
+<p>I completed my PhD in Operations Research and Industrial Engineering at UT Austin, where I developed mathematical optimization frameworks for power grid resilience planning against extreme flooding events. My research integrated geoscience modeling, power flow physics, and uncertainty quantification through stochastic programming and robust optimization. I built end-to-end decision-support systems that inform both short-term operational responses and long-term infrastructure investment strategies for the Texas Gulf Coast region. My work has been published in peer-reviewed journals and conferences, including a best student paper award at the IISE Annual Conference.</p>
+
+<p>My work also extends to reinforcement learning, where I have completed two projects. First, I developed an inverse reinforcement learning-based approach to infer the utility function that expert delivery drivers implicitly optimize during routing decisions. Second, I proposed an improved state-space formulation for multi-agent reinforcement learning in traffic networks, enabling better coordination among autonomous vehicles to optimize network-wide traffic flow.</p>
 
 <h3>News</h3>
 <ul>
