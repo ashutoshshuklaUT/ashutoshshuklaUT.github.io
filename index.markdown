@@ -6,9 +6,9 @@ layout: default
 <div class="about-content">
 <div class="profile-container">
 <p><strong style="font-size: 1.5em;">Hello! I am Ashutosh Shukla</strong></p>
-<p>I am an Applied Scientist with experience in building and deploying large-scale optimization and ML systems in production. At BNSF Railway, I serve as technical lead for network-wide scheduling and assignment systems, including an AI platform that automates railcar movement planning across the entire yard network, a workflow currently managed by 100+ operations managers.</p>
+<p>I am an Applied Scientist with experience in building and deploying large-scale optimization and ML systems in production. At BNSF Railway, I serve as development lead for network-wide scheduling and assignment systems, including a decision-support system that orchestrates railcar movements across all BNSF Railway's terminals, a workflow currently managed by 150+ operations managers.</p>
 <p><strong style="font-size: 1.5em;">Technical Focus</strong></p>
-<p>I specialize in scheduling, routing, and resource allocation problems which are formulated as large-scale discrete optimization problems and solved with methods like metaheuristics and decomposition algorithms. On the ML side, I work with deep learning, reinforcement learning, time series modeling, and anomaly detection.</p>
+<p>I specialize in solving scheduling, routing, and resource allocation problems which are formulated as large-scale discrete optimization models and solved with methods like metaheuristics and decomposition algorithms. On the ML side, I have experience in deep learning, reinforcement learning, time series modeling, and anomaly detection.</p>
 <p><strong style="font-size: 1.5em;">Research Background</strong></p>
 <p>I completed my PhD in Operations Research at UT Austin, where I developed large-scale optimization frameworks for infrastructure planning under uncertainty — designing stochastic and robust models with scalable solution methods. My research has been published in peer-reviewed venues and received the Best Student Paper Award at the IISE Annual Conference. I also worked on reinforcement learning for networked systems, including inverse RL for routing policy inference and multi-agent RL for coordinated traffic optimization.</p>
 <h3>News</h3>
