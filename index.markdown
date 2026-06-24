@@ -25,3 +25,5 @@ layout: default
 <div class="blog-button-container">
 <a href="{{ '/blog/' | relative_url }}" class="btn secondary">Read Blogs</a>
 </div>
+</div>
+</section>
